@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/QR-code/static/css/main.fa8cc1f2.css",
-    "main.js": "/QR-code/static/js/main.beca980c.js",
-    "static/js/787.fc1ce4eb.chunk.js": "/QR-code/static/js/787.fc1ce4eb.chunk.js",
-    "static/media/InstaRegular.otf": "/QR-code/static/media/InstaRegular.7d105274034af3bc93e2.otf",
-    "index.html": "/QR-code/index.html",
-    "main.fa8cc1f2.css.map": "/QR-code/static/css/main.fa8cc1f2.css.map",
-    "main.beca980c.js.map": "/QR-code/static/js/main.beca980c.js.map",
-    "787.fc1ce4eb.chunk.js.map": "/QR-code/static/js/787.fc1ce4eb.chunk.js.map"
+    "main.css": "/insta-clone/static/css/main.2c7274a1.css",
+    "main.js": "/insta-clone/static/js/main.6d14ff6a.js",
+    "static/js/787.fc1ce4eb.chunk.js": "/insta-clone/static/js/787.fc1ce4eb.chunk.js",
+    "static/media/InstaRegular.otf": "/insta-clone/static/media/InstaRegular.7d105274034af3bc93e2.otf",
+    "index.html": "/insta-clone/index.html",
+    "main.2c7274a1.css.map": "/insta-clone/static/css/main.2c7274a1.css.map",
+    "main.6d14ff6a.js.map": "/insta-clone/static/js/main.6d14ff6a.js.map",
+    "787.fc1ce4eb.chunk.js.map": "/insta-clone/static/js/787.fc1ce4eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa8cc1f2.css",
-    "static/js/main.beca980c.js"
+    "static/css/main.2c7274a1.css",
+    "static/js/main.6d14ff6a.js"
   ]
 }
