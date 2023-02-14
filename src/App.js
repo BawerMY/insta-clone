@@ -20,7 +20,7 @@ import UserProfile from './components/UserProfile';
 function App() {
   // if(window.innerWidth > 640) window.resizeTo(640,1000)
   const [dark, useDark] = useState(true)
-  const [page, setPage] = useState(1)
+  const [page, setPage] = useState(0)
   var data = {
     app:{
       multiAccount: false,
