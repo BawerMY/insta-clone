@@ -52,7 +52,7 @@ export default function Post(props) {
       <>
         <UserHeader username={props.username} dark={props.dark} sponsored={props.sponsored} prop={props.prop} />
         <div className="w-screen pb-6">
-          <div onDoubleClick={() => setLiked(true)} className="w-screen h-[100vw] bg-slate-700"></div>
+          <div onDoubleClick={() => setLiked(true)} className="w-screen max-w-[640px] h-[100vw] max-h-[640px] bg-slate-700"></div>
           {props.cta && <div className="w-screen bg-[#1FA1FF] px-3 py-3 flex justify-between"><span>CTA copy here</span><Icon name='Arrow Right' state='default' dark='yes' /></div>}
           <div className="flex w-screen px-3 py-[10px] items-center">
             <div className="flex-1 flex gap-3">
