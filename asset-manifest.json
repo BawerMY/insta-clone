@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/QR-code/static/css/main.fa8cc1f2.css",
+    "main.js": "/QR-code/static/js/main.beca980c.js",
+    "static/js/787.fc1ce4eb.chunk.js": "/QR-code/static/js/787.fc1ce4eb.chunk.js",
+    "static/media/InstaRegular.otf": "/QR-code/static/media/InstaRegular.7d105274034af3bc93e2.otf",
+    "index.html": "/QR-code/index.html",
+    "main.fa8cc1f2.css.map": "/QR-code/static/css/main.fa8cc1f2.css.map",
+    "main.beca980c.js.map": "/QR-code/static/js/main.beca980c.js.map",
+    "787.fc1ce4eb.chunk.js.map": "/QR-code/static/js/787.fc1ce4eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa8cc1f2.css",
+    "static/js/main.beca980c.js"
+  ]
+}
