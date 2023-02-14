@@ -441,7 +441,7 @@ function App() {
 var stories = data.stories.map(story => <Story username={story.username} key={story.username} />)
 
   return (
-    <div className={"text-[14px] min-h-screen w-screen overflow-x-hidden " + (dark ? 'bg-black text-white' : 'bg-white text-black')} >
+    <div className={"text-[14px] min-h-screen w-screen overflow-x-hidden max-w-[640px] " + (dark ? 'bg-black text-white' : 'bg-white text-black')} >
       {page===0&&//home navbar
       <div className='w-full flex justify-between items-center text-[22px] px-3 py-[5px]'>
         <div className="flex gap-2">
