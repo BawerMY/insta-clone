@@ -503,3 +503,4 @@ var stories = data.stories.map(story => <Story username={story.username} key={st
 }
 
 export default App;
+//posts or probably reels and homepage and everywhere goes under nav bar bottom fix it maybe put a div whit h(nav bar bottoms h) up to nav bar bottom
