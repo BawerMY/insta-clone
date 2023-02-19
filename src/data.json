@@ -1,0 +1,1002 @@
+{
+    "app": {
+      "multiAccount": false
+    },
+    "user": {
+      "username": "bawer_my",
+      "verified": true,
+      "profileImage": "img url",
+      "bio": "hi i am bawer :>",
+      "tags": [
+        "frontend",
+        "developer",
+        "gaming"
+      ],
+      "followers": [
+        "follower1",
+        "follower2"
+      ],
+      "followings": [
+        "following1",
+        "following2"
+      ],
+      "links": [
+        "//www.google.com",
+        "//www.google.com"
+      ],
+      "reels": [
+        {
+          "r": "reel"
+        }
+      ],
+      "posts": [
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        }
+      ],
+      "taggedPosts": [
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        },
+        {
+          "images": [
+            "img1",
+            "img2",
+            "img3",
+            "img4",
+            " img5"
+          ],
+          "username": "bawer_my",
+          "likes": 100,
+          "comments": [
+            {
+              "username": "bawer_my",
+              "comment": "hi"
+            }
+          ],
+          "emojis": [
+            {
+              "name": "100",
+              "quantity": 10
+            },
+            {
+              "name": "Fear",
+              "quantity": 25
+            }
+          ],
+          "dateTime": "2023-02-12T02:50:00.000Z",
+          "cta": false,
+          "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+          "sponsored": true
+        }
+      ],
+      "stories": [
+        {
+          "s": "staor"
+        },
+        {
+          "s": "staor"
+        },
+        {
+          "s": "staor"
+        },
+        {
+          "s": "staor"
+        },
+        {
+          "s": "staor"
+        },
+        {
+          "s": "staor"
+        },
+        {
+          "s": "staor"
+        }
+      ],
+      "savedStories": [
+        {
+          "title": "my story",
+          "stories": {
+            "s": "story"
+          }
+        },
+        {
+          "title": "my story1",
+          "stories": {
+            "s": "story"
+          }
+        },
+        {
+          "title": "my story2",
+          "stories": {
+            "s": "story"
+          }
+        },
+        {
+          "title": "my story3",
+          "stories": {
+            "s": "story"
+          }
+        },
+        {
+          "title": "my story4",
+          "stories": {
+            "s": "story"
+          }
+        },
+        {
+          "title": "my story5",
+          "stories": {
+            "s": "story"
+          }
+        },
+        {
+          "title": "my story :}",
+          "stories": {
+            "s": "story"
+          }
+        }
+      ],
+      "notifications": [
+        "welcome",
+        "notification1"
+      ]
+    },
+    "stories": [
+      {
+        "username": "bawer_my"
+      },
+      {
+        "username": "bawer_my2"
+      },
+      {
+        "username": "bawer_my3"
+      },
+      {
+        "username": "bawer_my4"
+      },
+      {
+        "username": "bawer_my5"
+      },
+      {
+        "username": "bawer_my6"
+      },
+      {
+        "username": "bawer_my7"
+      }
+    ],
+    "posts": [
+      {
+        "images": [
+          "img1",
+          "img2",
+          "img3",
+          "img4",
+          " img5"
+        ],
+        "username": "bawer_my",
+        "comments": [
+          {
+            "username": "bawer_my",
+            "comment": "hi"
+          }
+        ],
+        "emojis": [
+          {
+            "name": "100",
+            "quantity": 10
+          },
+          {
+            "name": "Fear",
+            "quantity": 25
+          }
+        ],
+        "dateTime": "2023-02-12T02:50:00.000Z",
+        "cta": false,
+        "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+        "sponsored": true,
+        "id":0,
+        "likers":[]
+      },
+      {
+        "images": [
+          "img1",
+          "img2",
+          "img3",
+          "img4",
+          " img5"
+        ],
+        "username": "bawer_my",
+        "comments": [
+          {
+            "username": "bawer_my",
+            "comment": "hi"
+          }
+        ],
+        "emojis": [
+          {
+            "name": "100",
+            "quantity": 10
+          },
+          {
+            "name": "Fear",
+            "quantity": 25
+          }
+        ],
+        "dateTime": "2023-02-12T02:50:00.000Z",
+        "cta": false,
+        "description": "Username Lorem ipsum dolor sit ametddssssssssss",
+        "sponsored": true,
+        "id":0,
+        "likers":[]
+      }
+    ]
+  }

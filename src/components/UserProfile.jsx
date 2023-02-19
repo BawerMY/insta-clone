@@ -20,9 +20,9 @@ export default function UserProfile(props) {
             {props.self?//navbartop
             <div className='w-full flex justify-between items-center p-3'>
             <div className="flex gap-2 items-center">
-                <b className="text-[22px]">{props.username}</b>
-                {props.verified && <img src={process.env.PUBLIC_URL + 'images/other/verified.svg'} alt="verified" />}
-                {props.notifications.length > 0 && <div className="bg-[#FE0135] text-white rounded-[10px] text-[12px] px-1">{props.notifications.length <= 10 ?props.notifications.length:'10+'}</div>}
+                <b className="text-[22px]">{props.user.username}</b>
+                {props.user.verified && <img src={process.env.PUBLIC_URL + 'images/other/verified.svg'} alt="verified" />}
+                {props.user.notifications.length > 0 && <div className="bg-[#FE0135] text-white rounded-[10px] text-[12px] px-1">{props.user.notifications.length <= 10 ?props.user.notifications.length:'10+'}</div>}
             </div>
             <div className="flex items-center gap-6">
                 <Icon name='Add' state='default' dark={props.dark ?'yes':'no'} />
@@ -33,8 +33,8 @@ export default function UserProfile(props) {
         <div className='w-full flex justify-between items-center p-3'>
         <div className="w-[100px]"><Icon name='Arrow Left' state='default' dark={props.dark ?'yes':'no'} /></div>
         <div className="flex gap-2 items-center">
-            <b className="text-[22px]">{props.username}</b>
-            {props.verified && <img src={process.env.PUBLIC_URL + 'images/other/verified.svg'} alt="verified" />}
+            <b className="text-[22px]">{props.user.username}</b>
+            {props.user.verified && <img src={process.env.PUBLIC_URL + 'images/other/verified.svg'} alt="verified" />}
         </div>
         <div className="flex items-center gap-6 w-[100px] justify-end">
             <Icon name='Notifications' state='default' dark={props.dark ?'yes':'no'} />
@@ -47,26 +47,26 @@ export default function UserProfile(props) {
             <Avatar type='feed' prop='on' size={90} />
             <div className="flex justify-evenly flex-auto" >
                 <div className="text-center">
-                    <div className="font-bold">{nr(props.posts.length)}</div>
+                    <div className="font-bold">{nr(props.user.posts.length)}</div>
                     <div>posts</div>
                 </div>
                 <div className='text-center'>
-                    <div className="font-bold">{nr(props.followers.length)}</div>
+                    <div className="font-bold">{nr(props.user.followers.length)}</div>
                     <div>followers</div>
                 </div>
                 <div className='text-center'>
-                    <div className="font-bold">{nr(props.followings.length)}</div>
+                    <div className="font-bold">{nr(props.user.followings.length)}</div>
                     <div>following</div>
                 </div>
             </div>
         </div>
         <div className="gap-4 flex flex-col my-[12px]">
             <div className="px-3 mt-1.5 text-[13px] flex flex-col gap-[6px]">
-                <div className="font-bold">{props.username}</div>
+                <div className="font-bold">{props.user.username}</div>
                 <div>
-                    {props.bio}
-                    <span className="text-[#004C8B]">{props.tags.map((tag) => ' #' + tag)}</span>
-                    <div className="text-[#004C8B]">{props.links.map((link) =><a href={link}>{link.slice(2)} </a>)}</div>
+                    {props.user.bio}
+                    <span className="text-[#004C8B]">{props.user.tags.map((tag) => ' #' + tag)}</span>
+                    <div className="text-[#004C8B]">{props.user.links.map((link) =><a href={link}>{link.slice(2)} </a>)}</div>
                 </div>
             </div>
             <div className="flex gap-4 items-center">
@@ -76,16 +76,16 @@ export default function UserProfile(props) {
                     <div className="z-0 -translate-x-full"><Avatar type='selected' prop='off' size={26} /></div>
                 </div>
                 <div className="-translate-x-[26px]">
-                    <div>followed by <b>{props.followers[0]}{props.followers.length>2?',':' and'} {props.followers[1]}</b></div>
-                    {props.followers.length>2&&<div>and other <b>{props.followers.length-2} others</b></div>}
+                    <div>followed by <b>{props.user.followers[0]}{props.user.followers.length>2?',':' and'} {props.user.followers[1]}</b></div>
+                    {props.user.followers.length>2&&<div>and other <b>{props.user.followers.length-2} others</b></div>}
                 </div>
             </div>
             <div className="w-[94%] mx-auto gap-[9px] text-[13px] font-bold flex flex-col">
-                {props.following&&!props.self&&<div className="bg-[#1FA1FF] leading-4 w-full rounded-[3px] text-center text-white py-[7px]">Follow</div>}
+                {props.user.following&&!props.self&&<div className="bg-[#1FA1FF] leading-4 w-full rounded-[3px] text-center text-white py-[7px]">Follow</div>}
                 <div className="flex gap-[6px]">
                 <div className={(!props.dark?'bg-white text-black':'bg-[#EFEFEF14] text-white') + " leading-4 h-[30px] flex-auto font-bold rounded-[3px] text-center py-[7px]"}>{props.following&&!props.self?"Message":(props.following?<div className="flex gap-1 justify-center items-center" >Following<div className="border-black border-b-[1.5px] rounded-[1px] border-r-[1.5px] w-[4.95px] h-[4.95px] rotate-45"></div></div>:'Edit Profile')}</div>{/*to fix the down arrows "spessita'" and all self*/}
                 {!props.self && <div className={(!props.dark?'bg-white text-black':'bg-[#EFEFEF14] text-white') + " flex-auto leading-4 font-bold rounded-[3px] text-center py-[7px]"}>{props.type === 'not following'?"Subscribe":'Message'}</div>}
-                {props.following&&!props.self&& <div className={(!props.dark?'bg-white text-black':'bg-[#EFEFEF14] text-white') + " flex-auto leading-4 font-bold rounded-[3px] text-center py-[7px]"}>Contact</div>}
+                {props.user.following&&!props.user.self&& <div className={(!props.dark?'bg-white text-black':'bg-[#EFEFEF14] text-white') + " flex-auto leading-4 font-bold rounded-[3px] text-center py-[7px]"}>Contact</div>}
                 <div className={(!props.dark?'bg-white':'bg-[#EFEFEF14]') + " rounded-[3px] w-8 h-[30px] flex justify-center items-center"}>
                     <img src={process.env.PUBLIC_URL + "/images/other/+pearson"+(!props.dark?'Black':'White')+".svg"} alt="+ pearson" />
                 </div>
@@ -93,7 +93,7 @@ export default function UserProfile(props) {
             </div>
         </div>
         <div className="flex overflow-auto">
-            {props.savedStories.map((story) =>
+            {props.user.savedStories.map((story) =>
             <div key={story.title} className="flex flex-col gap-1 items-center min-w-[20vw] pt-[3px]">
                 <div className="outline outline-[#C4C4C4] outline-offset-2 outline-1 rounded-full"><Avatar type='default' size={52} prop='off' /></div>
                 <div>{story.title}</div>
@@ -102,27 +102,36 @@ export default function UserProfile(props) {
         </div>
         <div className="flex pt-[18px]">
             <div onClick={() => setTab(0)} className={"border-" + (props.dark?'white':'black') + " py-[8px] flex justify-center flex-auto " + (tab===0&&' border-b-[1px]')}><Icon name='Grid' state={tab===0?'default':'unselected'} dark={props.dark&&tab===0?'yes':'no'} /></div>
-                {props.reels && <div onClick={() => setTab(1)} className={"border-" + (props.dark?'white':'black') + " flex py-[8px] justify-center flex-auto " + (tab===1&&' border-b-[1px]')}><Icon name='Reels' state={tab===1?'default':'unselected'} dark={props.dark&&tab===1?'yes':'no'} /></div>}
+                {props.user.reels && <div onClick={() => setTab(1)} className={"border-" + (props.dark?'white':'black') + " flex py-[8px] justify-center flex-auto " + (tab===1&&' border-b-[1px]')}><Icon name='Reels' state={tab===1?'default':'unselected'} dark={props.dark&&tab===1?'yes':'no'} /></div>}
             <div onClick={() => setTab(2)} className={"border-" + (props.dark?'white':'black') + " flex py-[8px] justify-center flex-auto " + (tab===2&&' border-b-[1px]')}><Icon name='Mentions' state={tab===2?'default':'unselected'} dark={props.dark&&tab===2?'yes':'no'} /></div>
         </div>
         <div className="flex flex-wrap gap-px">
-            {tab===0&&props.posts.map((post) => function(post){
+            {tab===0&&props.user.posts.map((post) => function(post){
                 return (
                     <div className="w-[calc((100vw-4px)/3)] h-[calc((100vw-4px)/3)] bg-slate-600"></div>
                 )
             }())}
-            {tab===1&&props.reels.map((post) => function(post){
+            {tab===1&&props.user.reels.map((post) => function(post){
                 return (
                     <div className="w-[calc((100vw-4px)/3)] h-[calc(60vw)] bg-slate-600"></div>//h-... only for now
                 )
             }())}
-            {tab===2&&props.posts.map((post) => function(post){
+            {tab===2&&props.user.posts.map((post) => function(post){
                 return (
                     <div className="w-[calc((100vw-4px)/3)] h-[calc((100vw-4px)/3)] bg-slate-600"></div>
                 )
             }())}
         </div>
-
+        {props.promo &&
+                <div onClick={() => window.open('//'+props.promo.url, '_blank').focus()} className="bg-[#B8CCB5] p-2 rounded-lg w-[90%] mx-auto h-[48px] text-black flex items-center gap-3 fixed bottom-[63px] left-[15px]">
+                <img className="w-[33px] h-[33px] rounded-[4px] bg-slate-500" src="img" alt="img" />
+                <div className="flex gap-[3px] flex-auto flex-col text-[12px] leading-[14px]">
+                    <b>{props.promo.title}</b>
+                    <span>Go to {props.promo.url}</span>
+                </div>
+                <Icon name='Arrow Right' state='default' dark='no' />
+            </div>
+        }
 
 
         </>
